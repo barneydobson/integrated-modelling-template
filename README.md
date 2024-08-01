@@ -3,29 +3,26 @@
 If you want to use this GitHub page to take your project further then please use
 the [template](docs/template.md).
 
-## 20-minute integration template
+The overview of our integration day
+- 09:00-09:10 Explain the day (now)
+- 09:10-09:40 Present overviews:
+   - [Inputs/outputs](#water-in-water-out)
+   - [Conceptual diagram](#conceptual-diagram)
+- 09:40-11:50 (30 min coffee break): [Fill in integration templates](#20-minute-integration-template)
 
-- [What models/systems do you care about?](#models)
-- [Where does water/pollutants come in from?](#waterpollutant-inputsoutputs)
-- [Where does water/pollutants go out to?](#waterpollutant-inputsoutputs)
-- [Do any inputs/outputs match?](#direct-integration)
-- [What additional processes need to be represents in between the outputs/inputs
-of the models?](#indirect-integration)
-- [Sketch a conceptual outline](#conceptual-diagram)
+## Example: groundwater (MODFLOW) and supply distribution (EPANET)
 
-## Example: groundwater and supply distribution
+I don't know either of these models well, I just asked ChatGPT for info in the
+inputs/outputs. These examples will be used throughout this explanation
 
-I don't know about either of these models, I just asked ChatGPT for info in the
-inputs/outputs section. It took 5 minutes to fill in the table, 5 minutes to
-think about interactions, and 10 minutes to sketch the integrated
-conceptualisation.
+## Introduction
 
-### Models
+Explain your system, I will present groundwater and supply distribution side-by
+-side.
 
-- Groundwater: MODFLOW
-- Supply distribution: EPANET
+### Water in-water out
 
-### Water/pollutant inputs/outputs
+Where does water/pollutants come in/go out?
 
 <!-- markdownlint-disable MD033 -->
 <table>
@@ -79,30 +76,59 @@ conceptualisation.
 
 </table>
 
+### Conceptual diagram
+
+Other information is fine, but make sure to highlight all of your inputs and
+outputs, in particular dynamic ones!
+
+![conceptual-diagram](docs/images/conceptual-diagram-separate.png)
+
+_Made with [draw.io](https://app.diagrams.net/?src=about#)_
+
+## 20-minute integration template
+
+- [What models/systems do you care about?](#models)
+- [Do any inputs/outputs match?](#direct-integration)
+- [What additional processes need to be represents in between the outputs/inputs
+of the models?](#indirect-integration)
+- [Update conceptual diagram](#conceptual-diagram-integrated)
+- [Explore feasibility](#explore-feasibility)
+
+### Models
+
+- Groundwater: MODFLOW
+- Supply distribution: EPANET
+
 ### Direct integration
 
 - Leaks/Valves -> MODFLOW? I guess leak could be a point water/pollutant source,
  or maybe aggregate into recharge from surface.
+- If there is a groundwater supply borehole, then that could be pumped from
+MODFLOW enter the EPANET tanks?
+- EPANET reservoirs seem like the system outflow - perhaps some of this can go
+into MODFLOW depending on the case study.
 
 ### Indirect integration
 
 - Generalised head boundaries in MODFLOW - maybe these could match with network
 head in distribution? Presumably enabling infiltration (in the unpressurised
 sections) or exfiltration (anywhere).
-- EPANET reservoirs seem like the infinite sink - perhaps some of this can go
-into MODFLOW depending on the case study.
-- If there is a groundwater supply borehole, then that could be pumped from
-MODFLOW and, with some encouragement be related to the EPANET tanks?
+- Leaks/valves -> MODFLOW via river interactions (depends where the leaks go..).
+- Garden water use interacting with recharge/evapotranspiration (probably needs
+a model to 'translate' the EPANET demand outputs).
 
-### Conceptual diagram
+### Conceptual diagram integrated
 
 Make sure to highlight all of your inputs, outputs and integration links!
 
-![conceptual-diagram](docs/images/conceptual-diagram.png)
+![conceptual-diagram](docs/images/conceptual-diagram-integrated.png)
 
-## Take your integration further
+### Explore feasibility
 
-- How complicated are the processes in between [indirect integration](#indirect-integration)?
+- **Are these identified integrations likely to induce boundary condition errors
+in one system or the other! (i.e., why integrate)**
 - What temporal scale mismatches exist?
 - What spatial scale mismatches exist?
 - What other missing data is there?
+- How complicated are the processes in between [indirect integration](#indirect-integration)?
+- What kind of case studies might these work for?
