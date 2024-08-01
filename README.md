@@ -202,7 +202,7 @@ unusefulness of abstraction), same is probably true for outflows/leaks.
    - Who can do what?
    - What's missing?
 
-4. Turn your plan into GitHub issues:
+### Turn your plan into GitHub issues:
 
 If you want to use this page to take your project further then please use
 the [GitHub template](docs/template.md).
