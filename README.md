@@ -4,10 +4,11 @@ If you want to use this GitHub page to take your project further then please use
 the [template](docs/template.md).
 
 The overview of our integration day
+
 - 09:00-09:10 Explain the day (now)
 - 09:10-09:40 Present overviews:
-   - [Inputs/outputs](#water-in-water-out)
-   - [Conceptual diagram](#conceptual-diagram)
+  - [Inputs/outputs](#water-in-water-out)
+  - [Conceptual diagram](#conceptual-diagram)
 - 09:40-11:50 (30 min coffee break): [Fill in integration templates](#20-minute-integration-template)
 
 ## Example: groundwater (MODFLOW) and supply distribution (EPANET)
