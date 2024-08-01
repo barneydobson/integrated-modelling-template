@@ -6,7 +6,7 @@ The overview of our integration day
 - 09:10-09:40 Present overviews:
   - [Inputs/outputs](#water-in-water-out)
   - [Conceptual diagram](#conceptual-diagram)
-- 09:40-11:50 (30 min coffee break): [Fill in integration templates](#20-minute-integration-template)
+- 09:40-13:30 (30 min coffee break, 1 hour lunch break): [Fill in integration templates](#20-minute-integration-template)
 
 ## Example: groundwater (MODFLOW) and supply distribution (EPANET)
 
