@@ -88,7 +88,7 @@ _Made with [draw.io](https://app.diagrams.net/?src=about#)_
 
 ## 20-minute integration template
 
-You can find a fillable version [here](https://docs.google.com/document/d/1zDtI-14n_GMlzCfuw0ZF_eBCbD9xnnEehOGKE_EsBoE/edit?usp=sharing)
+You can find a fillable version [here](https://forms.gle/QNAvMLefKcAe4EoBA).
 
 - [What models/systems do you care about?](#models)
 - [Do any inputs/outputs directly match?](#direct-integration)
@@ -184,3 +184,26 @@ unusefulness of abstraction), same is probably true for outflows/leaks.
    - Leaks->rivers, outfalls->groundwater, or groundwater->infiltration seem to
    be unlikely for the most part, but there may be specific case studies where
    this behaviour occurs.
+
+## What next?
+
+1. Identify a research question(s) - why integrate?
+2. Formalise your integrated conceptual model, using it as a map to build around:
+
+   - Include the internal model processes as well as interactions.
+   - Identify if you have any relevant case studies, even if they only cover
+   part of the integrated conceptual model.
+   - Consider scale mismatches in more detail, map where this mismatches occur
+   and what can be done to fix them.
+   - How do the model softwares work? Which bits can be interfaced with and which
+   will require something custom? Is new code required, where?
+
+3. Make a plan:
+
+   - Who is in charge?
+   - What are the key tasks and how long might they take?
+   - Who can do what?
+   - What's missing?
+
+4. Turn your plan into GitHub issues:
+
