@@ -14,9 +14,9 @@ Day 2
 Day 3
 
 - 09:30-11:30 (30 min coffee break):
-   - [Give shape to your project](#what-next)
+  - [Give shape to your project](#what-next)
 - 13:00-14:30:
-   - [Make a GitHub for your project](#turn-your-plan-into-github-issues)
+  - [Make a GitHub for your project](#turn-your-plan-into-github-issues)
 
 ## Example: groundwater (MODFLOW) and supply distribution (EPANET)
 
