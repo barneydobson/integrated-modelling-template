@@ -1,8 +1,5 @@
 # Integrated modelling workshop
 
-If you want to use this page to take your project further then please use
-the [GitHub template](docs/template.md).
-
 The overview of our integration day
 
 - 09:00-09:10 Explain the day (now)
@@ -195,7 +192,7 @@ unusefulness of abstraction), same is probably true for outflows/leaks.
    part of the integrated conceptual model.
    - Consider scale mismatches in more detail, map where this mismatches occur
    and what can be done to fix them.
-   - How do the model softwares work? Which bits can be interfaced with and which
+   - How do the model software work? Which bits can be interfaced with and which
    will require something custom? Is new code required, where?
 
 3. Make a plan:
@@ -207,3 +204,18 @@ unusefulness of abstraction), same is probably true for outflows/leaks.
 
 4. Turn your plan into GitHub issues:
 
+If you want to use this page to take your project further then please use
+the [GitHub template](docs/template.md).
+
+You can use the GitHub issues as a to do list. With an added bonus that your `git`
+setup will already be in place when it comes to software development.
+
+![Issues page](docs/images/example-issues-page.png)
+
+It is sensible to organise issues with "big-picture" issues and checklists.
+
+![Issues overview](docs/images/example-issue-overview.png)
+
+And then use separate issues when you are ready to get specific.
+
+![Issue](docs/images/example-issue.png)
