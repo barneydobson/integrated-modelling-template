@@ -1,6 +1,9 @@
 [build-system]
-requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
+requires = [
+  "setuptools",
+  "setuptools-scm",
+]
 
 [tool.setuptools.packages.find]
 exclude = ["htmlcov"] # Exclude the coverage report file from setuptools package finder
@@ -13,18 +16,22 @@ authors = [
     { name = "Imperial College London RSE Team", email = "ict-rse-team@imperial.ac.uk" }
 ]
 requires-python = ">=3.12"
-dependencies = []
-
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+]
 [project.optional-dependencies]
 dev = [
-    "ruff",
-    "mypy",
-    "pip-tools",
-    "pre-commit",
-    "pytest",
-    "pytest-cov",
-    "pytest-mypy",
-    "pytest-mock"
+  "mypy",
+  "pip-tools",
+  "pre-commit",
+  "pytest",
+  "pytest-cov",
+  "pytest-mock",
+  "pytest-mypy",
+  "ruff",
 ]
 
 [tool.mypy]
