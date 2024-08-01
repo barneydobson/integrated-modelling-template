@@ -134,6 +134,9 @@ Make sure to highlight all of your inputs, outputs and integration links!
 
 ### Explore feasibility
 
+Note, you're not expected to complete all of this in the 20-minutes, but please
+at least try and have a go at **1.**!
+
 1. **Are these identified integrations likely to induce boundary condition errors
 in one system or the other! (i.e., why integrate)**
 2. What temporal scale mismatches exist?
