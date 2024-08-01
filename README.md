@@ -1,7 +1,7 @@
 # Integrated modelling workshop
 
-If you want to use this GitHub page to take your project further then please use
-the [template](docs/template.md).
+If you want to use this page to take your project further then please use
+the [GitHub template](docs/template.md).
 
 The overview of our integration day
 
@@ -149,7 +149,7 @@ over timescales that would impact groundwater (i.e., unknown importance of garde
 water use).
    - Although boreholes do provide supply, I would expect that daily variations
 that EPANET captures are unlikely to significantly impact groundwater (i.e., expected
-unusefulness of abstraction), same is probably true for outflows.
+unusefulness of abstraction), same is probably true for outflows/leaks.
 
 2. Temporal scale mismatch:
 
@@ -177,7 +177,8 @@ unusefulness of abstraction), same is probably true for outflows.
    - Whether integration is interesting seems to rely heavily on the temporal scales
    being sufficiently near that the dynamics may interact. Presumably the most
    promising case studies would thus have quick to respond groundwater (gravels,
-   etc.).
+   etc.) and also be on relatively small scales (e.g., distribution network
+   causing localised basement flooding).
    - Highly urbanised areas seems to be a given considering the EPANET focus.
    - Leaks->rivers, outfalls->groundwater, or groundwater->infiltration seem to
    be unlikely for the most part, but there may be specific case studies where
