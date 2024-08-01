@@ -9,12 +9,14 @@ Day 2
   - [Inputs/outputs](#water-in-water-out)
   - [Conceptual diagram](#conceptual-diagram)
 - 09:40-13:30 (30 min coffee break, 1 hour lunch break):
-[Fill in integration templates](#20-minute-integration-template)
+  - [Fill in integration templates](#20-minute-integration-template)
 
 Day 3
 
-- 09:30-14:30 (30 min coffee break, 1 hour lunch break):
-[Taking a project further](#what-next)
+- 09:30-11:30 (30 min coffee break):
+   - [Give shape to your project](#what-next)
+- 13:00-14:30:
+   - [Make a GitHub for your project](#turn-your-plan-into-github-issues)
 
 ## Example: groundwater (MODFLOW) and supply distribution (EPANET)
 
