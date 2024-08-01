@@ -15,9 +15,10 @@ of the models?](#indirect-integration)
 
 ## Example: groundwater and supply distribution
 
-I don't know about either of these models, I just asked ChatGPT for info. It
-took 5 minutes to fill in the table, 5 minutes to think about interactions, and
-10 minutes to sketch the integrated conceptualisation.
+I don't know about either of these models, I just asked ChatGPT for info in the
+inputs/outputs section. It took 5 minutes to fill in the table, 5 minutes to
+think about interactions, and 10 minutes to sketch the integrated
+conceptualisation.
 
 ### Models
 
