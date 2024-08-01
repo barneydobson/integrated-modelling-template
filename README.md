@@ -1,12 +1,20 @@
 # Integrated modelling workshop
 
-The overview of our integration day
+Overview of the technical parts of the workshop:
+
+Day 2
 
 - 09:00-09:10 Explain the day (now)
 - 09:10-09:40 Present overviews:
   - [Inputs/outputs](#water-in-water-out)
   - [Conceptual diagram](#conceptual-diagram)
-- 09:40-13:30 (30 min coffee break, 1 hour lunch break): [Fill in integration templates](#20-minute-integration-template)
+- 09:40-13:30 (30 min coffee break, 1 hour lunch break):
+[Fill in integration templates](#20-minute-integration-template)
+
+Day 3
+
+- 09:30-14:30 (30 min coffee break, 1 hour lunch break):
+[Taking a project further](#what-next)
 
 ## Example: groundwater (MODFLOW) and supply distribution (EPANET)
 
