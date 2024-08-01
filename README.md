@@ -126,10 +126,59 @@ Make sure to highlight all of your inputs, outputs and integration links!
 
 ### Explore feasibility
 
-- **Are these identified integrations likely to induce boundary condition errors
+1. **Are these identified integrations likely to induce boundary condition errors
 in one system or the other! (i.e., why integrate)**
-- What temporal scale mismatches exist?
-- What spatial scale mismatches exist?
-- What other missing data is there?
-- How complicated are the processes in between [indirect integration](#indirect-integration)?
-- What kind of case studies might these work for?
+2. What temporal scale mismatches exist?
+3. What spatial scale mismatches exist?
+4. How complicated are the processes in between [indirect integration](#indirect-integration)?
+5. What kind of case studies might these work for?
+
+For example:
+
+1. Would the integration tell us anything important?
+
+   - Anecdotal evidence that leakage plays a significant groundwater source in urban
+areas (i.e., importance of exfiltration), though this is probably more useful for
+leakage estimation because groundwater will not be that sensitive to the day-to-day
+dynamics of leakage.
+   - Suppose distribution networks are nearly
+always pressurised (i.e., unimportance of infiltration).
+   - Garden water use can be
+seasonally a very significant portion of water supply, though unsure if this is
+over timescales that would impact groundwater (i.e., unknown importance of garden
+water use).
+   - Although boreholes do provide supply, I would expect that daily variations
+that EPANET captures are unlikely to significantly impact groundwater (i.e., expected
+unusefulness of abstraction), same is probably true for outflows.
+
+2. Temporal scale mismatch:
+
+   - EPANET typically run at 1-15 minute resolution.
+   - MODFLOW at daily or monthly, or possibly hourly on small scales.
+   - The resolutions aren't aligned, but not insurmountable. The more important
+   question is whether there will be any interesting questions that can be
+   answered if the dynamics that EPANET provides are mostly smoothed out.
+
+3. Spatial scale mismatch:
+
+   - Both models accommodate wide variety of scales.
+   - Key spatial challenge is mapping pipes to MODFLOW grid.
+
+4. Indirect processes:
+
+   - The infiltration/exfiltration "adaptor" doesn't sound overwhelmingly
+   complicated to me, accommodating the scale mismatches sounds hardest part.
+   Validating it may be difficult because of lack of data.
+   - Garden water use is a reasonably well-studied field, don't anticipate
+   significant difficulties.
+
+5. Case studies:
+
+   - Whether integration is interesting seems to rely heavily on the temporal scales
+   being sufficiently near that the dynamics may interact. Presumably the most
+   promising case studies would thus have quick to respond groundwater (gravels,
+   etc.).
+   - Highly urbanised areas seems to be a given considering the EPANET focus.
+   - Leaks->rivers, outfalls->groundwater, or groundwater->infiltration seem to
+   be unlikely for the most part, but there may be specific case studies where
+   this behaviour occurs.
