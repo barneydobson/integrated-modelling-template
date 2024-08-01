@@ -88,10 +88,11 @@ _Made with [draw.io](https://app.diagrams.net/?src=about#)_
 
 ## 20-minute integration template
 
+You can find a fillable version [here](https://docs.google.com/document/d/1zDtI-14n_GMlzCfuw0ZF_eBCbD9xnnEehOGKE_EsBoE/edit?usp=sharing)
+
 - [What models/systems do you care about?](#models)
-- [Do any inputs/outputs match?](#direct-integration)
-- [What additional processes need to be represents in between the outputs/inputs
-of the models?](#indirect-integration)
+- [Do any inputs/outputs directly match?](#direct-integration)
+- [Do any inputs/outputs indirectly match?](#indirect-integration)
 - [Update conceptual diagram](#conceptual-diagram-integrated)
 - [Explore feasibility](#explore-feasibility)
 
