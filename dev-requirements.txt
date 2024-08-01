@@ -44,7 +44,7 @@ pluggy==1.5.0
     # via pytest
 pre-commit==3.7.1
     # via datahub (pyproject.toml)
-pyproject-hooks==1.0.0
+pyproject-hooks==1.1.0
     # via
     #   build
     #   pip-tools
@@ -56,7 +56,7 @@ pytest==8.3.2
     #   pytest-mypy
 pytest-cov==5.0.0
     # via datahub (pyproject.toml)
-pytest-mock==3.12.0
+pytest-mock==3.14.0
     # via datahub (pyproject.toml)
 pytest-mypy==0.10.3
     # via datahub (pyproject.toml)
