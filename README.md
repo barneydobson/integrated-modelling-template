@@ -225,7 +225,7 @@ setup will already be in place when it comes to software development.
 
 ![Issues page](docs/images/example-issues-page.png)
 
-It is sensible to organise issues with ["big-picture"] issues and checklists.
+It is sensible to organise issues with ["big-picture"]( #9 ) issues and checklists.
 
 ![Issues overview](docs/images/example-issue-overview.png)
 
