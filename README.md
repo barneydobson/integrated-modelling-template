@@ -23,7 +23,16 @@ Day 3
 I don't know either of these models well, I just asked ChatGPT for info in the
 inputs/outputs. These examples will be used throughout this explanation
 
-## Introduction
+## Introduction (pre-workshop homework)
+
+<!-- markdownlint-disable MD033 -->
+<table>
+   <!--- Headers -->
+   <tr><th>
+     Please do this section before the workshop and include it in your presentations on the first day (you only need to do one model/system)
+     </th>
+   </tr>
+</table>
 
 Explain your system, I will present groundwater and supply distribution side-by
 -side.
