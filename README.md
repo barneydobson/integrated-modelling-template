@@ -229,15 +229,15 @@ unusefulness of abstraction), same is probably true for outflows/leaks.
 If you want to use this page to take your project further then please use
 the [GitHub template](docs/template.md), and read [contributing](docs/CONTRIBUTING.md)
 
-You can use the GitHub [issues] as a to do list. With an added bonus that your `git`
+You can use the GitHub [issues](https://github.com/barneydobson/integrated-modelling-template/issues) as a to do list. With an added bonus that your `git`
 setup will already be in place when it comes to software development.
 
 ![Issues page](docs/images/example-issues-page.png)
 
-It is sensible to organise issues with ["big-picture"] issues and checklists.
+It is sensible to organise issues with ["big-picture"](https://github.com/barneydobson/integrated-modelling-template/issues/9) issues and checklists.
 
 ![Issues overview](docs/images/example-issue-overview.png)
 
-And then use separate issues when you are ready to get [specific].
+And then use separate issues when you are ready to get [specific](https://github.com/barneydobson/integrated-modelling-template/issues/10).
 
 ![Issue](docs/images/example-issue.png)
