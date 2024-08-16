@@ -227,7 +227,7 @@ unusefulness of abstraction), same is probably true for outflows/leaks.
 ### Turn your plan into GitHub issues
 
 If you want to use this page to take your project further then please use
-the [GitHub template](docs/template.md).
+the [GitHub template](docs/template.md), and read [contributing](docs/CONTRIBUTING.md)
 
 You can use the GitHub [issues] as a to do list. With an added bonus that your `git`
 setup will already be in place when it comes to software development.
