@@ -29,7 +29,7 @@ inputs/outputs. These examples will be used throughout this explanation
 <table>
    <!--- Headers -->
    <tr><th>
-     Please do this section before the workshop and include it in your presentations on the first day (you only need to do one model/system)
+     Please do this section before the workshop and include it preferably in your group's presentation on Day 1 (some groups may present in Day 2 if they need so). The individual participants (not assigned to preliminary groups) can present their model/system in Day 2. You only need to do one model/system that you can describe in < 4-5 min during the workshop.
      </th>
    </tr>
 </table>
