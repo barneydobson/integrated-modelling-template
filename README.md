@@ -232,6 +232,9 @@ the [GitHub template](docs/template.md), and read [contributing](docs/CONTRIBUTI
 You can use the GitHub [issues](https://github.com/barneydobson/integrated-modelling-template/issues) as a to do list. With an added bonus that your `git`
 setup will already be in place when it comes to software development.
 
+**Hint:** It may be easiest to start trying to create a standard WSIMOD node that has your required inputs and outputs, and then thinking about
+wrapping a more complex model.
+
 ![Issues page](docs/images/example-issues-page.png)
 
 It is sensible to organise issues with ["big-picture"](https://github.com/barneydobson/integrated-modelling-template/issues/9) issues and checklists.
