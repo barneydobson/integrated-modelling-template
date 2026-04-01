@@ -24,7 +24,7 @@ identify==2.6.16
     # via pre-commit
 iniconfig==2.3.0
     # via pytest
-mypy==1.19.1
+mypy==1.20.0
     # via
     #   datahub (pyproject.toml)
     #   pytest-mypy
