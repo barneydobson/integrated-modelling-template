@@ -66,7 +66,7 @@ ruff==0.15.12
     # via datahub (pyproject.toml)
 typing-extensions==4.15.0
     # via mypy
-virtualenv==21.2.0
+virtualenv==21.3.0
     # via pre-commit
 wheel==0.47.0
     # via pip-tools
